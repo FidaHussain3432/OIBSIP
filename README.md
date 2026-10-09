@@ -67,6 +67,7 @@ A production-grade pizza ordering and inventory management platform with separat
 
 ## 📁 Folder Structure
 
+```
 OIBSIP/
 └── WebDev-L3-PizzaDeliveryApp/
     ├── client/                          # React Frontend
@@ -94,6 +95,7 @@ OIBSIP/
     ├── screenshots/
     ├── demo-video-link.txt
     └── README.md
+```
 
 ---
 
