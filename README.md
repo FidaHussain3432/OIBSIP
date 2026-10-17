@@ -1,9 +1,7 @@
-# 📄 `README.md` — Oasis Infobyte Internship (OIBSIP)
+# 📄 README.md — Oasis Infobyte Internship (OIBSIP)
 
 <h1 align="center">
-  <br>
   🎓 Oasis Infobyte Internship
-  <br>
 </h1>
 
 <h3 align="center">
@@ -19,7 +17,7 @@
   <img src="https://img.shields.io/badge/track-Web%20Development%20%26%20Design-38bdf8" alt="Track" />
   <img src="https://img.shields.io/badge/level-2-a78bfa" alt="Level" />
   <img src="https://img.shields.io/badge/tasks-1%20of%204%20complete-f59e0b" alt="Progress" />
-  <img src="https://img.shields.io/badge/made%20with-%E2%9D%A4%20By%20Fida Hussain-red" alt="Developed by Fida Hussain" />
+  <img src="https://img.shields.io/badge/made%20with-%E2%9D%A4%20By%20Fida%20Hussain-red" alt="Developed by Fida Hussain" />
 </p>
 
 ---
@@ -80,10 +78,10 @@ I selected the **Web Development & Design** track and chose to complete **Level 
 
 ```text
 OIBSIP/
-├── README.md                  
+├── README.md
 │
-└── Level 2/                   
-    ├── README.md              
+└── Level 2/
+    ├── README.md
     │
     ├── Task 1-Calculator/     # ✅ Complete
     │   ├── index.html
@@ -145,7 +143,7 @@ Hosting	Any static host / open directly in browser
 Each task is self-contained and runs by simply opening its index.html in any modern browser.
 
 Example — Task 1 (Calculator)
-bash
+
 git clone https://github.com/FidaHussain3432/OIBSIP.git
 cd OIBSIP/Level\ 2/Task\ 1-Calculator
 # Open index.html in your browser (double-click or drag into browser window)
@@ -155,15 +153,8 @@ No installation, no dependencies, no build step. ✅
 This repository is part of the Oasis Infobyte AICTE Internship Program and is provided for educational and evaluation purposes.
 
 🔗 Connect
-<p align="center">
-  <a href="https://github.com/FidaHussain3432">
-    <img src="https://img.shields.io/badge/GitHub-FidaHussain3432-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/yourprofile">
-    <img src="https://img.shields.io/badge/LinkedIn-Fida%20Hussain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
+<p align="center"> <a href="https://github.com/FidaHussain3432"> <img src="https://img.shields.io/badge/GitHub-FidaHussain3432-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /> </a> &nbsp; <a href="https://www.linkedin.com/in/fida-hussain-3432"> <img src="https://img.shields.io/badge/LinkedIn-Fida%20Hussain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /> </a> </p>
+<div align="center">
 ⭐ Thanks for visiting this repository!
 Track: Web Development & Design · Level: 2 · Program: Oasis Infobyte (AICTE)
 
