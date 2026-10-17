@@ -16,7 +16,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-completed-brightgreen" alt="Status" />
-  <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
   <img src="https://img.shields.io/badge/semantic-HTML5-orange" alt="Semantic HTML5" />
   <img src="https://img.shields.io/badge/vanilla-JavaScript-yellow" alt="Vanilla JS" />
   <img src="https://img.shields.io/badge/no-eval-red" alt="No eval" />
