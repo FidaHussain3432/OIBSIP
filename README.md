@@ -388,19 +388,3 @@ This repository is part of the **Oasis Infobyte AICTE Internship Program** and i
 Made with ❤️ by **Fida Hussain**
 
 </div>
-">
-    <img src="https://img.shields.io/badge/LinkedIn-Fida%20Hussain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
-
----
-
-<div align="center">
-
-### ⭐ Thanks for visiting this repository!
-
-**Track:** Web Development & Design · **Level:** 2 · **Program:** Oasis Infobyte (AICTE)
-
-Made with ❤️ by **Fida Hussain**
-
-</div>
