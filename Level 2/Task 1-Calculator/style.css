@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+header {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: #1e293b;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: #38bdf8;
+}
+
+header p {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-top: 0.25rem;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  padding: 2rem 1rem;
+}
+
+main > section {
+  width: 100%;
+  max-width: 320px;
+  background: #1e293b;
+  border-radius: 16px;
+  padding: 1.25rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+output {
+  display: block;
+  width: 100%;
+  min-height: 3.5rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  background: #0f172a;
+  border-radius: 10px;
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: right;
+  color: #f8fafc;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+section[aria-label="Calculator Buttons"] {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 1rem 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #334155;
+  color: #f1f5f9;
+  transition: background 0.15s ease, transform 0.05s ease;
+}
+
+button:hover {
+  background: #475569;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+button[data-operator] {
+  background: #0ea5e9;
+  color: #0f172a;
+}
+
+button[data-operator]:hover {
+  background: #38bdf8;
+}
+
+button[data-action="equals"] {
+  background: #22c55e;
+  color: #0f172a;
+  grid-row: span 2;
+}
+
+button[data-action="equals"]:hover {
+  background: #4ade80;
+}
+
+button[data-action="clear"],
+button[data-action="backspace"] {
+  background: #ef4444;
+  color: #0f172a;
+}
+
+button[data-action="clear"]:hover,
+button[data-action="backspace"]:hover {
+  background: #f87171;
+}
+
+button[data-number="0"] {
+  grid-column: span 2;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.75rem;
+  color: #64748b;
+  background: #1e293b;
+}
+
+@media (max-width: 360px) {
+  output {
+    font-size: 1.4rem;
+  }
+  button {
+    font-size: 1rem;
+    padding: 0.85rem 0;
+  }
+}
