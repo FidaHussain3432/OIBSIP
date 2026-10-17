@@ -185,7 +185,7 @@ This repository is part of the **Oasis Infobyte AICTE Internship Program** and i
     <img src="https://img.shields.io/badge/GitHub-FidaHussain3432-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/fida-hussain-3432">
+  <a href="[https://www.linkedin.com/in/](https://www.linkedin.com/in/fida-itdeveloper/)">
     <img src="https://img.shields.io/badge/LinkedIn-Fida%20Hussain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
