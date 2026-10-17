@@ -155,8 +155,15 @@ No installation, no dependencies, no build step. ✅
 This repository is part of the Oasis Infobyte AICTE Internship Program and is provided for educational and evaluation purposes.
 
 🔗 Connect
-<p align="center"> <a href="https://github.com/FidaHussain3432"> <img alt="GitHub" src="https://img.shields.io/badge/GitHub-FidaHussain3432-181717?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="https://linkedin.com/in/yourprofile"> <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Fida%20Hussain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> </p>
-<div align="center">
+<p align="center">
+  <a href="https://github.com/FidaHussain3432">
+    <img src="https://img.shields.io/badge/GitHub-FidaHussain3432-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/yourprofile">
+    <img src="https://img.shields.io/badge/LinkedIn-Fida%20Hussain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
 ⭐ Thanks for visiting this repository!
 Track: Web Development & Design · Level: 2 · Program: Oasis Infobyte (AICTE)
 
