@@ -20,7 +20,7 @@
   <img src="https://img.shields.io/badge/semantic-HTML5-orange" alt="Semantic HTML5" />
   <img src="https://img.shields.io/badge/vanilla-JavaScript-yellow" alt="Vanilla JS" />
   <img src="https://img.shields.io/badge/no-eval-red" alt="No eval" />
-  <img src="https://img.shields.io/badge/made%20with-%E2%9D%A4%20in%20Pakistan-red" alt="Made in Pakistan" />
+  <img src="https://img.shields.io/badge/made%20with-%E2%9D%A4%20by%20Fida Hussain-red" alt="Develop by Fida Hussain" />
 </p>
 
 ---
