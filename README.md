@@ -152,12 +152,7 @@ No installation, no dependencies, no build step. ✅
 📄 License
 This repository is part of the Oasis Infobyte AICTE Internship Program and is provided for educational and evaluation purposes.
 
-🔗 Connect
-<p align="center"> <a href="https://github.com/FidaHussain3432"> <img src="https://img.shields.io/badge/GitHub-FidaHussain3432-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /> </a> &nbsp; <a href="https://www.linkedin.com/in/fida-hussain-3432"> <img src="https://img.shields.io/badge/LinkedIn-Fida%20Hussain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /> </a> </p>
-<div align="center">
-⭐ Thanks for visiting this repository!
-Track: Web Development & Design · Level: 2 · Program: Oasis Infobyte (AICTE)
+## 🔗 Connect
 
-Made with ❤️ by Fida Hussain
-
-</div> ```
+[![GitHub](https://img.shields.io/badge/GitHub-FidaHussain3432-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FidaHussain3432)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fida%20Hussain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fida-hussain-3432)
