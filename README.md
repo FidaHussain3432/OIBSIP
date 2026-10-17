@@ -76,7 +76,7 @@ I selected the **Web Development & Design** track and chose to complete **Level 
 
 ## 📂 Repository Structure
 
-```text
+~~~text
 OIBSIP/
 ├── README.md
 │
@@ -93,66 +93,111 @@ OIBSIP/
     ├── Task 2-Tribute Page/   # 🚧 Planned
     ├── Task 3-Todo App/       # 🚧 Planned
     └── Task 4-Login Auth/     # 🚧 Planned
-🧩 Tasks
-Each task has its own detailed README.md inside its folder. Click the task name to jump directly to it:
+~~~
 
-✅ Task 1 — Calculator
-A fully functional browser-based calculator with operator chaining, division-by-zero handling, and keyboard support — built with semantic HTML5, CSS Grid, and Vanilla JavaScript (no eval()).
+---
 
-📁 Level 2/Task 1-Calculator
+## 🧩 Tasks
 
-Highlights:
+Each task has its own detailed `README.md` inside its folder. Click the task name to jump directly to it:
 
-100% semantic HTML5 (zero <div>, zero <span>)
+### ✅ Task 1 — Calculator
 
-CSS Grid keypad layout
+A fully functional browser-based calculator with operator chaining, division-by-zero handling, and keyboard support — built with semantic HTML5, CSS Grid, and Vanilla JavaScript (no `eval()`).
 
-Custom arithmetic engine — no eval()
+📁 [`Level 2/Task 1-Calculator`](./Level%202/Task%201-Calculator)
 
-Operator chaining (5 + 3 × 2 = 16)
+**Highlights:**
 
-Floating-point cleanup (0.1 + 0.2 = 0.3)
+- 100% semantic HTML5 (zero `<div>`, zero `<span>`)
+- CSS Grid keypad layout
+- Custom arithmetic engine — no `eval()`
+- Operator chaining (`5 + 3 × 2 = 16`)
+- Floating-point cleanup (`0.1 + 0.2 = 0.3`)
+- Full keyboard support
 
-Full keyboard support
+---
 
-🚧 Task 2 — Tribute Page
-(Coming soon)
+### 🚧 Task 2 — Tribute Page
 
-📁 Level 2/Task 2-Tribute Page
+*(Coming soon)*
 
-🚧 Task 3 — To-Do Web App
-(Coming soon)
+📁 `Level 2/Task 2-Tribute Page`
 
-📁 Level 2/Task 3-Todo App
+---
 
-🚧 Task 4 — Login Authentication System
-(Coming soon)
+### 🚧 Task 3 — To-Do Web App
 
-📁 Level 2/Task 4-Login Auth
+*(Coming soon)*
 
-🛠 Tech Stack Used
+📁 `Level 2/Task 3-Todo App`
+
+---
+
+### 🚧 Task 4 — Login Authentication System
+
+*(Coming soon)*
+
+📁 `Level 2/Task 4-Login Auth`
+
+---
+
+## 🛠 Tech Stack Used
+
 Across all tasks in this repository:
 
-Layer	Technology
-Markup	Semantic HTML5
-Styling	Modern CSS3 (Grid, Flexbox, custom properties)
-Logic	Vanilla JavaScript (ES2020+)
-Dependencies	None — zero frameworks, zero build steps
-Hosting	Any static host / open directly in browser
-🚀 How to Run
-Each task is self-contained and runs by simply opening its index.html in any modern browser.
+| Layer | Technology |
+|-------|-----------|
+| **Markup** | Semantic HTML5 |
+| **Styling** | Modern CSS3 (Grid, Flexbox, custom properties) |
+| **Logic** | Vanilla JavaScript (ES2020+) |
+| **Dependencies** | None — zero frameworks, zero build steps |
+| **Hosting** | Any static host / open directly in browser |
 
-Example — Task 1 (Calculator)
+---
 
+## 🚀 How to Run
+
+Each task is self-contained and runs by simply opening its `index.html` in any modern browser.
+
+### Example — Task 1 (Calculator)
+
+~~~bash
 git clone https://github.com/FidaHussain3432/OIBSIP.git
 cd OIBSIP/Level\ 2/Task\ 1-Calculator
 # Open index.html in your browser (double-click or drag into browser window)
+~~~
+
 No installation, no dependencies, no build step. ✅
 
-📄 License
-This repository is part of the Oasis Infobyte AICTE Internship Program and is provided for educational and evaluation purposes.
+---
+
+## 📄 License
+
+This repository is part of the **Oasis Infobyte AICTE Internship Program** and is provided for educational and evaluation purposes.
+
+---
 
 ## 🔗 Connect
 
-[![GitHub](https://img.shields.io/badge/GitHub-FidaHussain3432-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FidaHussain3432)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fida%20Hussain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fida-hussain-3432)
+<p align="center">
+  <a href="https://github.com/FidaHussain3432">
+    <img src="https://img.shields.io/badge/GitHub-FidaHussain3432-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/fida-hussain-3432">
+    <img src="https://img.shields.io/badge/LinkedIn-Fida%20Hussain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
+
+---
+
+<div align="center">
+
+### ⭐ Thanks for visiting this repository!
+
+**Track:** Web Development & Design · **Level:** 2 · **Program:** Oasis Infobyte (AICTE)
+
+Made with ❤️ by **Fida Hussain**
+
+</div>
