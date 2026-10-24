@@ -1,0 +1,315 @@
+/* ===== BASE ===== */
+:root {
+  --cream: #faf6ec;
+  --cream-dark: #f0e9d8;
+  --navy: #1a1a2e;
+  --navy-light: #2d2d44;
+  --gold: #c9a227;
+  --gold-glow: rgba(201, 162, 39, 0.35);
+  --text: #2b2418;
+  --text-light: #6b5f4a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--cream);
+  color: var(--text);
+  line-height: 1.75;
+  overflow-x: hidden;
+}
+
+/* ===== NAV ===== */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 1rem 2rem;
+  background: rgba(250, 246, 236, 0.85);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(201, 162, 39, 0.2);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+nav a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--gold);
+}
+
+/* ===== HERO ===== */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 6rem 2rem 4rem;
+  background: linear-gradient(180deg, var(--cream) 0%, var(--cream-dark) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Animated background ring */
+.hero::before {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border: 1px solid rgba(201, 162, 39, 0.15);
+  border-radius: 50%;
+  animation: pulse-ring 6s ease-in-out infinite;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  border: 1px solid rgba(201, 162, 39, 0.08);
+  border-radius: 50%;
+  animation: pulse-ring 8s ease-in-out infinite 1s;
+}
+
+@keyframes pulse-ring {
+  0%, 100% { transform: scale(0.9); opacity: 0.5; }
+  50% { transform: scale(1.1); opacity: 1; }
+}
+
+.hero-portrait {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 2.5rem;
+}
+
+.hero-portrait img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--gold);
+  box-shadow: 0 0 60px var(--gold-glow), 0 0 120px rgba(201, 162, 39, 0.1);
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.hero-portrait img:hover {
+  transform: scale(1.05);
+}
+
+.hero-portrait figcaption {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: var(--text-light);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.hero-name {
+  position: relative;
+  z-index: 1;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(3rem, 10vw, 6rem);
+  font-weight: 900;
+  color: var(--navy);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.hero-tagline {
+  position: relative;
+  z-index: 1;
+  margin-top: 1rem;
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  color: var(--text-light);
+  max-width: 500px;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+}
+
+/* ===== SECTIONS ===== */
+main section {
+  padding: 6rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main section:nth-child(even) {
+  background: var(--cream-dark);
+  max-width: 100%;
+}
+
+main section:nth-child(even) > * {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 2.5rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: var(--gold);
+}
+
+article p {
+  margin-bottom: 1.5rem;
+  color: var(--text);
+  font-size: 1.05rem;
+}
+
+/* ===== TIMELINE ===== */
+.timeline {
+  list-style: none;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--gold), transparent);
+}
+
+.timeline li {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+}
+
+.timeline li::before {
+  content: '';
+  position: absolute;
+  left: -2rem;
+  top: 0.5rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--gold);
+  box-shadow: 0 0 15px var(--gold-glow);
+  transform: translateX(-4px);
+}
+
+.timeline time {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 0.25rem;
+}
+
+.timeline p {
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+
+/* ===== QUOTE ===== */
+blockquote {
+  position: relative;
+  padding: 3rem 2rem 3rem 3rem;
+  background: var(--navy);
+  border-radius: 4px;
+  margin: 2rem 0;
+  overflow: hidden;
+}
+
+blockquote::before {
+  content: '"';
+  position: absolute;
+  top: -1rem;
+  left: 1rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 8rem;
+  color: var(--gold);
+  opacity: 0.3;
+  line-height: 1;
+}
+
+blockquote p {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-style: italic;
+  color: var(--cream);
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+}
+
+blockquote footer {
+  margin-top: 1.5rem;
+  color: var(--gold);
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+
+/* ===== FOOTER ===== */
+body > footer {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: var(--navy);
+  color: var(--cream-dark);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+}
+
+body > footer p:first-child {
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 640px) {
+  nav ul { gap: 1.25rem; }
+  nav a { font-size: 0.7rem; }
+  .hero-portrait img { width: 150px; height: 150px; }
+  main section { padding: 4rem 1.5rem; }
+  blockquote { padding: 2rem 1.5rem 2rem 2rem; }
+}
